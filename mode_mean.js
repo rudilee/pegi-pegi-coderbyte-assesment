@@ -1,4 +1,4 @@
-function ReversePolishNotation(arr) {
+function ModeMean(arr) {
     if (arr.length == 0) return 0;
 
     let trends = new Map();
@@ -22,4 +22,4 @@ function ReversePolishNotation(arr) {
     return mode == mean ? 1 : 0;
 }
 
-console.log(ReversePolishNotation([1, 2, 3]));
+console.log(ModeMean([1, 2, 3]));
